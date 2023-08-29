@@ -27,6 +27,3 @@ const sort = (array, criteria) => {
 		return 0;
 	});`)(array) : null;
 };
-
-
-console.log(sort(['a02', 'b', 'a1'], [{fn: 'orderedString', args: [true]}]));
